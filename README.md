@@ -3,7 +3,12 @@
 - `/api/v1/login/` - method POST, example body {"username": "admin", "password": "admin"}
 - `/api/v1/logout/` - method POST, example body {"refresh_token": "eyJhb..."}
 ***
-
+- `/api/v1/app/notes/` - method GET
+- `/api/v1/app/notes/1/`- method GET
+- `/api/v1/app/notes/` - method POST, example body {"title": "Title...", "content": "Content..."}
+- `/api/v1/app/notes/1/` - method PUT, example body {"title": "Title...", "content": "Content..."}
+- `/api/v1/app/notes/1/` - method PATCH, example body {"title": "Title...", "content": "Content..."}
+- `/api/v1/app/notes/1/` - method DELETE
 
 ## For starting through Docker:
 
